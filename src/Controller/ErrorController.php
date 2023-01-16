@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-use App\Controller\AbstractController;
 use JetBrains\PhpStorm\NoReturn;
 
 

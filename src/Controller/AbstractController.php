@@ -16,9 +16,9 @@ abstract class AbstractController
     #[NoReturn] public function render(string $template, array $data = []): void
     {
         ob_start();
-        require __DIR__ . "/../../View/" . $template . ".html.php";
+        require __DIR__ . "/../../view/" . $template . ".html.php";
         $html = ob_get_clean();
-        require __DIR__ . "/../../View/base.html.php";
+        require __DIR__ . "/../../view/base.html.php";
         exit;
     }
 }

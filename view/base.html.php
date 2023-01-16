@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Portfolio</title>
 </head>
 <body><?php
@@ -25,9 +26,23 @@ function getMessages(string $type): void
 getMessages('error');
 getMessages('success');?>
 
-<h1>Test</h1>
+<header>
+    <h1>Angélique Dehainaut</h1>
+    <p>Développeur Web FullStack</p>
+    <p>Conceptrice Développeuse d'Application</p>
+</header>
 
+<div>
+    <?= $html ?>
+</div>
 
+<footer class="frame">
+    <a class="custom-btn" href="/index.php?c=home&a=home" id="more"><span>Click!</span><span>Accueil</span></a>
+    <a class="custom-btn"  href="/index.php?c=user&a=about" id="more"><span id="btn1">Click!</span><span>A propos</span></a>
+    <a class="custom-btn" id="more"><span>Click!</span><span>Compétences</span></a>
+    <a class="custom-btn" id="more"><span>Click!</span><span>Projets</span></a>
+    <a class="custom-btn" id="more"><span>Click!</span><span>Contact</span></a>
+</footer>
 
 
 

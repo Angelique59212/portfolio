@@ -4,5 +4,20 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^6.2"
-    }
+    },
+
+    "name": "angelika/portfolio",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "angelika",
+            "email": "dehainaut.angelique@orange.fr"
+        }
+    ]
 }
+
+

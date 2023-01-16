@@ -1,0 +1,30 @@
+.reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$font-weight: bold;
+
+.generic-header {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+.generic-animation-home {
+  animation-duration: 3s;
+  animation-name: slidein;
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
