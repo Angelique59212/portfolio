@@ -5,7 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+    </style>
     <title>Portfolio</title>
 </head>
 <body><?php
@@ -28,7 +30,7 @@ getMessages('success');?>
 
 <header>
     <h1>Angélique Dehainaut</h1>
-    <p>Développeur Web FullStack</p>
+    <p>Développeuse Web FullStack</p>
     <p>Conceptrice Développeuse d'Application</p>
 </header>
 
@@ -50,3 +52,7 @@ getMessages('success');?>
 <script src="/build/js/front-bundle.js"></script>
 </body>
 </html>
+
+
+
+

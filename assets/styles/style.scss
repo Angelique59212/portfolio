@@ -15,6 +15,10 @@ body {
 header {
   color: wheat;
 
+  h1 {
+    padding: 0.2rem;
+  }
+
   h1 , p  {
     @extend .generic-header;
     @extend .generic-animation-home;
@@ -23,6 +27,10 @@ header {
   p {
     font-size: 2rem;
     color: aliceblue;
+  }
+
+  p:nth-child(2) {
+    padding-top: 4.2rem;
   }
 }
 
@@ -42,6 +50,12 @@ header {
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
   box-shadow: 5px 5px 5px 0px #d7d3d3, inset 4px 4px 15px 0px #c9c9c9, 5px 5px 15px 5px rgba(0,0,0,0);
   text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
 
 /* Button Home */
@@ -142,10 +156,37 @@ header {
     -moz-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
   }
-
 }
 
+/* Page About */
+
 #about {
-  color: white;
+  color: wheat;
   font-size: 1.5rem;
+  padding: 4rem;
+}
+
+.second-background {
+  font-family: vars.$font-family;
+  color: vars.$color;
+  background-image: url("../images/background2.jpg");
+
+  .presentation {
+    padding-left: 14rem;
+    padding-bottom: 2rem;
+  }
+
+  #about-me {
+    width: 70vw;
+    padding-bottom: 1rem;
+  }
+
+  #frame {
+    display: flex;
+    justify-content: center;
+  }
+
+  #maps {
+    padding: 2rem;
+  }
 }
