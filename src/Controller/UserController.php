@@ -14,4 +14,12 @@ class UserController extends AbstractController
     #[NoReturn] public function about() {
         $this->render('user/about');
     }
+
+    #[NoReturn] public function competences() {
+        $this->render('user/competences');
+    }
+
+    #[NoReturn] public function contact() {
+        $this->render('form/contact');
+    }
 }
