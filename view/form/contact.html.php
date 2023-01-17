@@ -2,7 +2,20 @@
 <div id="contact">
     <div id="contact-container">
         <h1 id="about">Formulaire de Contact</h1>
-        <form action="/?c=user&a=contact" method="post">
+        <?php
+        if (isset($_SESSION['mail'])) {
+            if ($_SESSION['mail'] === "mail-success") {?>
+                <div class="message">
+                    <p>Votre message a bien été envoyé.</p>
+                    <button id="close">x</button>
+                </div><?php
+            }
+            else {
+                echo "Erreur lors de l'envoi";
+            }
+        }
+        $_SESSION['mail'] = null;?>
+        <form action="/index.php?c=user&a=contact" method="post">
             <div>
                 <label for="name"></label>
                 <input type="text" id="name" name="name" placeholder="nom" required>
@@ -20,4 +33,5 @@
         </form>
     </div>
 </div>
+
 </body>

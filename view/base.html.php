@@ -44,6 +44,7 @@ getMessages('success');?>
     <a class="custom-btn" href="/index.php?c=user&a=competences" id="more"><span>Click!</span><span>Compétences</span></a>
     <a class="custom-btn" id="more"><span>Click!</span><span>Projets</span></a>
     <a class="custom-btn" href="/index.php?c=user&a=contact" id="more"><span>Click!</span><span>Contact</span></a>
+    <p>&copy; Angélique Dehainaut</p>
 </footer>
 
 
