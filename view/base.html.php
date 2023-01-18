@@ -5,9 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>Portfolio</title>
 </head>
 <body><?php
@@ -44,15 +42,14 @@ getMessages('success');?>
 
 <footer class="frame">
     <a class="custom-btn" href="/index.php?c=home&a=home" id="more"><span>Click!</span><span>Accueil</span></a>
-    <a class="custom-btn"  href="/index.php?c=user&a=about" id="more"><span id="btn1">Click!</span><span>A propos</span></a>
+    <a class="custom-btn" href="/index.php?c=user&a=about" id="more"><span id="btn1">Click!</span><span>A propos</span></a>
     <a class="custom-btn" href="/index.php?c=user&a=competences" id="more"><span>Click!</span><span>Compétences</span></a>
-    <a class="custom-btn" id="more"><span>Click!</span><span>Projets</span></a>
+    <a class="custom-btn" href="/index.php?c=user&a=project" id="more"><span>Click!</span><span>Projets</span></a>
     <a class="custom-btn" href="/index.php?c=user&a=contact" id="more"><span>Click!</span><span>Contact</span></a>
     <p>&copy; Angélique Dehainaut</p>
 </footer>
 
-
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/9fe3f13f0a.js" crossorigin="anonymous"></script>
 <script src="/build/js/front-bundle.js"></script>
 </body>

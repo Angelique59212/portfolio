@@ -32,6 +32,11 @@ class UserController extends AbstractController
         $this->render('user/competences');
     }
 
+
+    public function project() {
+        $this->render('user/project');
+    }
+
     #[NoReturn] public function contact() {
         if (isset($_POST['mail'])) {
             $name = trim(strip_tags($_POST['name']));

@@ -20,8 +20,11 @@ import '../images/react.png';
 import '../images/electron.png';
 import '../images/react_native.png';
 import '../images/contact.jpg';
+import '../images/project_factice.jpg';
 
 import anime from 'animejs/lib/anime.es.js';
+
+
 
 const close = document.getElementById('close');
 const message = document.querySelector('.message-error, .message-success');
@@ -64,6 +67,23 @@ if (btnValidate) {
         }
     })
 }
+
+const swiper3 = new Swiper(".s3", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
 
 
 
