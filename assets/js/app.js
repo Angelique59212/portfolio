@@ -8,6 +8,17 @@ import '../images/bootstrap.png';
 import '../images/ajax.png';
 import '../images/composer.png';
 import '../images/github.png';
+import '../images/typescript.png';
+import '../images/linux.png';
+import '../images/sass.png';
+import '../images/webpack.png';
+import '../images/twig.png';
+import '../images/redbean.png';
+import '../images/symfony.png';
+import '../images/doctrine.png';
+import '../images/react.png';
+import '../images/electron.png';
+import '../images/react_native.png';
 
 import anime from 'animejs/lib/anime.es.js';
 
