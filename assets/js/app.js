@@ -19,6 +19,7 @@ import '../images/doctrine.png';
 import '../images/react.png';
 import '../images/electron.png';
 import '../images/react_native.png';
+import '../images/contact.jpg';
 
 import anime from 'animejs/lib/anime.es.js';
 

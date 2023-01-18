@@ -30,6 +30,10 @@ getMessages('success');?>
 
 <header>
     <h1>Angélique Dehainaut</h1>
+    <div id="icon">
+        <a href="https://github.com/Angelique59212?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ang%C3%A9lique-dehainaut-89ab49223" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
     <p>Développeuse Web FullStack</p>
     <p>Conceptrice Développeuse d'Application</p>
 </header>
@@ -49,7 +53,7 @@ getMessages('success');?>
 
 
 
-
+<script src="https://kit.fontawesome.com/9fe3f13f0a.js" crossorigin="anonymous"></script>
 <script src="/build/js/front-bundle.js"></script>
 </body>
 </html>

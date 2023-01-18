@@ -10,7 +10,7 @@
         }
 
         $_SESSION['mail'] = null;?>
-        <form action="/?c=user&a=contact" method="post">
+        <form action="/?c=user&a=contact" method="post" id="form">
             <div>
                 <label for="name"></label>
                 <input type="text" id="name" name="name" placeholder="nom" required>
@@ -23,9 +23,9 @@
 
 
                 <button id="btn-contact" class="btn btn-secondary" type="submit" name="submit">Envoyer</button>
-
             </div>
         </form>
+        <img src="/build/image/contact.jpg" alt="contact">
     </div>
 </div>
 <?php

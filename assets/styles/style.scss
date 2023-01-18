@@ -34,6 +34,19 @@ header {
   }
 }
 
+.fa-github, .fa-linkedin {
+  color: wheat;
+}
+
+#icon {
+  text-align: center;
+  padding: 0.5rem;
+  .fa-github, .fa-linkedin {
+    @extend .generic-header;
+    margin: 1rem;
+  }
+}
+
 #home {
   width: 74vw;
   margin: 0 auto;
@@ -208,7 +221,7 @@ footer {
     width: 50vw;
     height: 70vh;
     border: 1px solid cornsilk;
-
+    border-radius: vars.$border-radius;
   }
 }
 
@@ -218,9 +231,16 @@ footer {
   display: flex;
   justify-content: center;
 
+  #form {
+    display: block;
+    position: absolute;
+    z-index: 666;
+    margin-left: 26.2rem;
+    margin-top: -2rem;
+    transform: perspective(2050px) rotateY(35deg);
+  }
+
   form div {
-    border: 1px solid white;
-    border-radius: vars.$border-radius;
     width: 41vw;
     display: block;
     margin: 2rem;
@@ -240,7 +260,7 @@ footer {
   }
 
   textarea {
-    width: 35vw;
+    width: 30vw;
   }
 
   #btn-contact {
