@@ -21,5 +21,7 @@ abstract class AbstractController
         require __DIR__ . "/../../view/base.html.php";
         exit;
     }
+
+    
 }
 

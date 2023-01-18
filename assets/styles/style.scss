@@ -192,6 +192,26 @@ footer {
   }
 }
 
+/* Competences */
+
+#container-competences {
+  width: 98vw;
+  display: flex;
+  margin: 0 auto;
+
+  #competence1 , #competence2 {
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid cornsilk;
+
+    img {
+      width: 10vw;
+    }
+  }
+
+}
+
+
 // Contact
 
 #contact {

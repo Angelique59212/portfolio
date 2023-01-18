@@ -42,11 +42,11 @@ class UserController extends AbstractController
             $subject = "Vous avez un message";
             if (filter_var($userMail, FILTER_VALIDATE_EMAIL)) {
                 if (strlen($message) >= 20 && strlen($message) <= 250) {
-                    if (mail($to, $subject, $message, $this->mailHeaders, $userMail)) {
-                        $_SESSION['mail'] = "mail-success";
-                    } else {
-                        $_SESSION['mail'] = "mail-error";
-                    }
+//                    if (mail($to, $subject, $message, $this->mailHeaders, $userMail)) {
+//                        $_SESSION['mail'] = "mail-success";
+//                    } else {
+//                        $_SESSION['mail'] = "mail-error";
+//                    }
                     $this->render('form/contact');
                 }
             }

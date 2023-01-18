@@ -1,4 +1,14 @@
 import '../styles/style.scss';
+import '../images/html_css.png';
+import '../images/js.png';
+import '../images/php.png';
+import '../images/jquery.png';
+import '../images/sql.png';
+import '../images/bootstrap.png';
+import '../images/ajax.png';
+import '../images/composer.png';
+import '../images/github.png';
+
 import anime from 'animejs/lib/anime.es.js';
 
 const close = document.getElementById('close');
@@ -14,7 +24,7 @@ if (close) {
     setTimeout(() => closeMessage(), 6000);
 }
 let text = document.getElementById('about');
-let contain = document.querySelector('#contact');
+let contain = document.getElementById('#contact');
 
 let name = document.getElementById('name');
 let email = document.getElementById('mail');
